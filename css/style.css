@@ -1,0 +1,47 @@
+body {
+  font-family: arial;
+  text-align: center;
+}
+#title {
+  background:#d5dff0;
+  padding: 15px 0;
+  position: relative;
+}
+#title #logo {
+  position:absolute;
+  height:90px;
+  width:65px;
+  display:block;
+  top:20px;
+  right:40px;
+}
+#image, #image2 {
+  max-width: 50%;
+  margin:10px auto;
+  display: block;
+  border-radius: 10px;
+  box-shadow: 6px 6px 3px grey;
+}
+#img-caption {
+  border-radius: 1px;
+  padding: 5px;
+  display: inline-block;
+  background-color:#d5dff0;
+  box-shadow: 4px 4px 2px grey;
+}
+#tribute-info h3 {
+  text-decoration: underline;
+  -moz-text-decoration: underline;
+}
+#tribute-info ul {
+  text-align:left;
+ list-style-position: inside;
+}
+@media screen and (max-width:600px) {
+  #title #logo {
+    top:70px;
+    right:5px;
+    height:65px;
+    width:45px;
+  }
+}
